@@ -1,0 +1,56 @@
+@font-face {
+	font-family: "Quicksand";
+	src: url('font/Quicksand/Quicksand-Regular.ttf');
+}
+@font-face {
+	font-family: "Quicksand";
+	font-style: italic;
+	src: url('font/Quicksand/Quicksand-Light.ttf');
+}
+@font-face {
+	font-family: "Quicksand";
+	font-weight: bold;
+	src: url('font/Quicksand/Quicksand-Bold.ttf');
+}
+
+body {
+	background-image:url(img/maquette-vierge.jpg);
+	background-size: auto;
+	background-repeat: no-repeat;
+	font-family:Quicksand;
+}
+
+[placeholder] {
+  font-style: italic;
+  text-align: center;
+  font-size: 120%;
+  font-family:Quicksand;
+}
+
+.test{
+	position:absolute;
+	top: 43%;
+	left: 43%;
+	background-image:url(img/maquette-vierge.jpg);
+	background-image:url(img/Bulle.png);
+}
+
+.test1{
+	border-radius: 100px;
+	border: 2px solid white;
+	opacity:0.5;
+	width: 120%;
+	height: 60px;
+}
+
+.fakeButton{
+	height:0;
+	width:0;
+	background:none;
+	border:0;
+}
+
+.image{
+	width: 50%;
+	height: 50%;
+}
